@@ -13,6 +13,7 @@
 		6C8769841E7FA6F900B0C85A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C8769821E7FA6F900B0C85A /* Main.storyboard */; };
 		6C8769861E7FA6F900B0C85A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C8769851E7FA6F900B0C85A /* Assets.xcassets */; };
 		6C8769891E7FA6F900B0C85A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C8769871E7FA6F900B0C85A /* LaunchScreen.storyboard */; };
+		6C8769931E7FA74400B0C85A /* DownloadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8769921E7FA74400B0C85A /* DownloadFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6C8769851E7FA6F900B0C85A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C8769881E7FA6F900B0C85A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C87698A1E7FA6F900B0C85A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C8769911E7FA74400B0C85A /* DownloadFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadFile.h; sourceTree = "<group>"; };
+		6C8769921E7FA74400B0C85A /* DownloadFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		6C8769781E7FA6F900B0C85A /* breakpointDownloading */ = {
 			isa = PBXGroup;
 			children = (
+				6C8769901E7FA74400B0C85A /* DownLoadFile */,
 				6C87697C1E7FA6F900B0C85A /* AppDelegate.h */,
 				6C87697D1E7FA6F900B0C85A /* AppDelegate.m */,
 				6C87697F1E7FA6F900B0C85A /* ViewController.h */,
@@ -77,6 +81,15 @@
 				6C87697A1E7FA6F900B0C85A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C8769901E7FA74400B0C85A /* DownLoadFile */ = {
+			isa = PBXGroup;
+			children = (
+				6C8769911E7FA74400B0C85A /* DownloadFile.h */,
+				6C8769921E7FA74400B0C85A /* DownloadFile.m */,
+			);
+			path = DownLoadFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C8769811E7FA6F900B0C85A /* ViewController.m in Sources */,
+				6C8769931E7FA74400B0C85A /* DownloadFile.m in Sources */,
 				6C87697E1E7FA6F900B0C85A /* AppDelegate.m in Sources */,
 				6C87697B1E7FA6F900B0C85A /* main.m in Sources */,
 			);
